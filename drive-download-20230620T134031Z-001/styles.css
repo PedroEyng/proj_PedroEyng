@@ -1,0 +1,312 @@
+/* Estilos gerais pa */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos do cabeçalho de bosta */
+header {
+  background-color: #000;
+  color: #e4658b;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #460231;
+  text-decoration: none;
+}
+
+/* Estilos do banners */
+.banner {
+  background-color: #888;
+  color: #3f3838;
+  padding: 40px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 24px;
+}
+
+/* Estilos dos destaques do insta bb */
+.destaque {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.produto {
+  width: 30%;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.produto h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.produto p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.produto .preco {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #888;
+  color: #b6129b;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-links ul li a {
+  color: #3a053f;
+  text-decoration: none;
+}
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel {
+  display: flex;
+  animation: scroll 10s linear infinite;
+}
+
+.produto {
+  flex: 0 0 30%;
+  /* Resto dos estilos do produto */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos do banner */
+.banner {
+  background-color: #888;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 24px;
+}
+
+/* Estilos dos destaques */
+.destaques {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.destaques h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel {
+  display: flex;
+  animation: scroll 10s linear infinite;
+}
+
+.produto {
+  flex: 0 0 30%;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.produto h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.produto p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.produto .preco {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+body {
+  font-family: 'lindafonte', sans-serif;
+}
+.produtos-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.produto {
+  /* Estilos dos produtos */
+}
+.produtos-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100%; /* Define a altura para ocupar a altura total da página */
+}
+
+.produto {
+  /* Estilos dos produtos */
+}

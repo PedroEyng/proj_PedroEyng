@@ -1,0 +1,312 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: linear-gradient(to bottom, #e59af8, #f5f5f5); /* Degrade de roxo */
+    padding: 10px;
+  }
+  
+  .banner {
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 48px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .produtos-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .produtos {
+    display: inline-block;
+  }
+  
+  /* Estilos dos produtos */
+  .produto {
+    width: 300px;
+    height: 400px;
+    background-color: #e9c1ee;
+    margin-right: 20px;
+  }
+  .login-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  .produtos-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  .produtos {
+    display: flex;
+    align-items: center;
+  }
+  
+  .produto {
+    width: 200px;
+    height: 450px;
+    background-color: #f8daf7;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .produto:hover {
+    transform: scale(1.05);
+  }
+  
+  .seta-direita {
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  header {
+    padding: 20px;
+  }
+  
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #6200ee;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .search-results {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: #f7b8e7;
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 999;
+  }
+  footer {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .contato,
+  .termos,
+  .redes-sociais {
+    margin-bottom: 5px;
+  }
+  
+  .redes-sociais a {
+    margin-right: 5px;
+ 
+  }
+  .produto {
+    text-align: center;
+  }
+  
+  .produto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .produto h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .produto p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .produto span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .produto {
+    text-align: center;
+  }
+  
+  .produto img {
+    width: 200px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .produto h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333; /* Cor do texto */
+  }
+  
+  .produto p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #666; /* Cor do texto */
+  }
+  
+  .produto span {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255); /* Cor do texto */
+  }
+  .custom-link {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    border: none;
+    background: none;
+    text-decoration: none;
+  }
+  
+  .custom-link img {
+    display: block;
+    width: 20px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 20px;
+  }
+
+  .custom-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.custom-link img {
+  width: 30px;
+  height: 30px;
+}
+.custom-link {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-25%);
+  }
+  .carrinho-link {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }
+  
+  .carrinho-link img {
+    width: 90px;
+    height: 50px;
+  }
+  /* Estilos da seta */
+.custom-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.custom-link img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Estilos do carrinho */
+.carrinho-link {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.carrinho-link img {
+  width: 90px;
+  height: 50px;
+}
+.voltar-link {
+  position: absolute;
+  top: 85px;
+  left: 20px;
+}
+
+.voltar-link img {
+  width: 30px;
+  height: 30px;
+}
+.voltar-link {
+  display: none; /* Oculta a seta de volta por padrão */
+}
+
+body.pagina-principal .voltar-link {
+  display: block; /* Exibe a seta de volta apenas na página principal */
+  position: absolute;
+  top: 70px; /* Ajuste a distância do topo conforme necessário */
+  left: 20px;
+}
+
+body.pagina-principal .voltar-link img {
+  width: 30px;
+  height: 30px;
+}
+.custom-header {
+  background: linear-gradient(to bottom, #d0b3f8, #f5f5f5, #ffffff); /* Ajuste o tamanho do gradiente conforme necessário */
+  padding: 10px;
+}
+
+.logo {
+  position: relative;
+}
+
+.arrow-link {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+.arrow-left {
+  width: 20px;
+  height: 20px;
+  background-image: url('seta\ esqueda.png'); /* */
+  background-size: cover;
+}
